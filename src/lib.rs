@@ -1,3 +1,5 @@
+// # Plugin library
+// The main library file where you define modules within your plugin, as well as where the plugin is initialized at runtime
 use manufacture_core::prelude::*;
 
 pub mod commands;

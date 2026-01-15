@@ -9,3 +9,13 @@ pub mod resources;
 pub mod storage;
 pub mod prelude;
 pub mod systems;
+
+/// Initialize the plugin
+/// 
+/// ## DO NOT MODIFY THIS FUNCTION'S SIGNATURE
+/// The Plugin Loader will not recognize your plugin if this function is changed in any way
+/// 
+/// You can add and remove things to initialize, but **do not** change the function's name or inputs
+pub fn init_plugin(world: &mut World, disp_build: &mut DispatcherBuilder){
+
+}

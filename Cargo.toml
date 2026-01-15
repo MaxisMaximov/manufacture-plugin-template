@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-manufacture_core = { path = "G:/Rust Projects/manufacture-core" }
+manufacture_core = { git = "https://github.com/MaxisMaximov/manufacture-core.git" }

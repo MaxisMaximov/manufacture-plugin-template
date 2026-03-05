@@ -1,7 +1,11 @@
 [package]
-name = "manufacture_plugin_template"
+name = "manufacture_sample_plugin"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+crate-type = ["lib"]
+
 [dependencies]
 manufacture_core = { git = "https://github.com/MaxisMaximov/manufacture-core.git" }
+manufacture_engine = { git = "https://github.com/MaxisMaximov/manufacture-engine.git", tag = "1.0.0" }
